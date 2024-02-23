@@ -348,7 +348,7 @@ task_entry.pack(pady=10, padx=10, ipady=5, fill=X)
 
 # BUTTONS
 add_image = PhotoImage(file=add_in_image_path)
-add_button = Button(frame, image=add_image, command=add_task, cursor="hand")
+add_button = Button(frame, image=add_image, command=add_task, cursor="hand2")
 add_button.place(x=10, y=100, width=40, height=40)
 # add_button.bind("<Enter>", lambda event: show_description(add_description))
 
